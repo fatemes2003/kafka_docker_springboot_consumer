@@ -1,0 +1,11 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    #  ack
+    producer:
+      acks: all
+server:
+  port: 0
+
+
+#  ack
